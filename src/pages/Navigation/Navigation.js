@@ -1,8 +1,10 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useAuth from '../../Hooks/useAuth';
 
 const Navigation = () => {
+  const {user, logout} = useAuth();
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -14,10 +16,15 @@ const Navigation = () => {
               <Link className='my-auto' style={{textDecoration: 'none', color: 'white', fontWeight: 'bold', marginLeft:'10px'}} to="/home">HOME</Link>
               <Link className='my-auto' style={{textDecoration: 'none', color: 'white', fontWeight: 'bold', marginLeft:'10px'}} to="/products">PRODUCTS</Link>
             </Nav>
-            <Link className='my-auto' style={{textDecoration: 'none', color: 'white', fontWeight: 'bold', marginLeft:'10px'}} to="/dashboard">DASHBOARD</Link>
-
-            <Link className='my-auto' style={{textDecoration: 'none', color: 'white', fontWeight: 'bold', marginLeft:'10px'}} to="/login">LOGIN</Link>
             <Nav>
+            {user?.email ?
+            <div>
+            <Link className='my-auto' style={{textDecoration: 'none', color: 'white', fontWeight: 'bold', marginLeft:'10px'}} to="/dashboard">DASHBOARD</Link>
+            <span className='text-white'>{user.displayName}</span>
+            <Link className='my-auto' style={{textDecoration: 'none', color: 'white', fontWeight: 'bold', marginLeft:'10px'}} to="/login" onClick={logout}>LOGOUT</Link>
+            </div>:
+            <Link className='my-auto' style={{textDecoration: 'none', color: 'white', fontWeight: 'bold', marginLeft:'10px'}} to="/login">LOGIN</Link>}
+            
               
             </Nav>
           </Navbar.Collapse>
