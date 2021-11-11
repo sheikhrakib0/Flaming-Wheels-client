@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "price": 1200,
+    "picture": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1348&q=80",
+    "name": "Mountain Bike",
+    "company": "PLEXIA",
+    "description": "Road bicycle racing is the cycle sport discipline of road cycling, held on paved roads. Stage races or tours take multiple days, and consist of several mass-start or time-trial stages ridden consecutively. Professional racing originated in Western Europe, centred in France, Spain, Italy and the Low Countries."
+  },
+  {
+    "id": 2,
+    "price": 816,
+    "picture": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1348&q=80",
+    "name": "Hero cycle",
+    "company": "DIGIFAD",
+    "description": "Road bicycle racing is the cycle sport discipline of road cycling, held on paved roads. Stage races or tours take multiple days, and consist of several mass-start or time-trial stages ridden consecutively. Professional racing originated in Western Europe, centred in France, Spain, Italy and the Low Countries."
+  },
+  {
+    "id": 3,
+    "price": 1196,
+    "picture": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1348&q=80",
+    "name": "Atlas Jackson",
+    "company": "SUPREMIA",
+    "description": "Road bicycle racing is the cycle sport discipline of road cycling, held on paved roads. Stage races or tours take multiple days, and consist of several mass-start or time-trial stages ridden consecutively. Professional racing originated in Western Europe, centred in France, Spain, Italy and the Low Countries."
+  },
+  {
+    "id": 4,
+    "price": 660,
+    "picture": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1348&q=80",
+    "name": "Avon Roadstar",
+    "company": "VERAQ",
+    "description": "Road bicycle racing is the cycle sport discipline of road cycling, held on paved roads. Stage races or tours take multiple days, and consist of several mass-start or time-trial stages ridden consecutively. Professional racing originated in Western Europe, centred in France, Spain, Italy and the Low Countries."
+  },
+  {
+    "id": 5,
+    "price": 522,
+    "picture": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1348&q=80",
+    "name": "Hercules",
+    "company": "ECSTASIA",
+    "description": "Road bicycle racing is the cycle sport discipline of road cycling, held on paved roads. Stage races or tours take multiple days, and consist of several mass-start or time-trial stages ridden consecutively. Professional racing originated in Western Europe, centred in France, Spain, Italy and the Low Countries."
+  },
+  {
+    "id": 6,
+    "price": 858,
+    "picture": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1348&q=80",
+    "name": "La-sovereign",
+    "company": "GAZAK",
+    "description": "Road bicycle racing is the cycle sport discipline of road cycling, held on paved roads. Stage races or tours take multiple days, and consist of several mass-start or time-trial stages ridden consecutively. Professional racing originated in Western Europe, centred in France, Spain, Italy and the Low Countries."
+  },
+  {
+    "id": 7,
+    "price": 962,
+    "picture": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1348&q=80",
+    "name": "Firefox",
+    "company": "CENTREXIN",
+    "description": "Road bicycle racing is the cycle sport discipline of road cycling, held on paved roads. Stage races or tours take multiple days, and consist of several mass-start or time-trial stages ridden consecutively. Professional racing originated in Western Europe, centred in France, Spain, Italy and the Low Countries."
+  },
+  {
+    "id": 8,
+    "price": 528,
+    "picture": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1348&q=80",
+    "name": "Montra",
+    "company": "TWIGGERY",
+    "description": "Road bicycle racing is the cycle sport discipline of road cycling, held on paved roads. Stage races or tours take multiple days, and consist of several mass-start or time-trial stages ridden consecutively. Professional racing originated in Western Europe, centred in France, Spain, Italy and the Low Countries."
+  },
+  {
+    "id": 9,
+    "price": 730,
+    "picture": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1348&q=80",
+    "name": "Mach City",
+    "company": "ZEAM",
+    "description": "Road bicycle racing is the cycle sport discipline of road cycling, held on paved roads. Stage races or tours take multiple days, and consist of several mass-start or time-trial stages ridden consecutively. Professional racing originated in Western Europe, centred in France, Spain, Italy and the Low Countries."
+  },
+  {
+    "id": 10,
+    "price": 694,
+    "picture": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1348&q=80",
+    "name": "Road Master",
+    "company": "UNCORP",
+    "description": "Road bicycle racing is the cycle sport discipline of road cycling, held on paved roads. Stage races or tours take multiple days, and consist of several mass-start or time-trial stages ridden consecutively. Professional racing originated in Western Europe, centred in France, Spain, Italy and the Low Countries."
+  },
+  {
+    "id": 11,
+    "price": 1098,
+    "picture": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1348&q=80",
+    "name": "Veloce legion",
+    "company": "SPLINX",
+    "description": "Road bicycle racing is the cycle sport discipline of road cycling, held on paved roads. Stage races or tours take multiple days, and consist of several mass-start or time-trial stages ridden consecutively. Professional racing originated in Western Europe, centred in France, Spain, Italy and the Low Countries."
+  },
+  {
+    "id": 12,
+    "price": 1044,
+    "picture": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1348&q=80",
+    "name": "Duronto",
+    "company": "EXODOC",
+    "description": "Road bicycle racing is the cycle sport discipline of road cycling, held on paved roads. Stage races or tours take multiple days, and consist of several mass-start or time-trial stages ridden consecutively. Professional racing originated in Western Europe, centred in France, Spain, Italy and the Low Countries."
+  },
+  {
+    "id": 13,
+    "price": 1098,
+    "picture": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1348&q=80",
+    "name": "Veloce Outrage",
+    "company": "SPLINX",
+    "description": "Road bicycle racing is the cycle sport discipline of road cycling, held on paved roads. Stage races or tours take multiple days, and consist of several mass-start or time-trial stages ridden consecutively. Professional racing originated in Western Europe, centred in France, Spain, Italy and the Low Countries."
+  },
+  {
+    "id": 14,
+    "price": 1044,
+    "picture": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1348&q=80",
+    "name": "Daniel Roadmaster",
+    "company": "EXODOC",
+    "description": "Road bicycle racing is the cycle sport discipline of road cycling, held on paved roads. Stage races or tours take multiple days, and consist of several mass-start or time-trial stages ridden consecutively. Professional racing originated in Western Europe, centred in France, Spain, Italy and the Low Countries."
+  },
+  {
+    "id": 15,
+    "price": 1098,
+    "picture": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1348&q=80",
+    "name": "Extreme Holloway",
+    "company": "SPLINX",
+    "description": "Road bicycle racing is the cycle sport discipline of road cycling, held on paved roads. Stage races or tours take multiple days, and consist of several mass-start or time-trial stages ridden consecutively. Professional racing originated in Western Europe, centred in France, Spain, Italy and the Low Countries."
+  },
+  {
+    "id": 16,
+    "price": 1044,
+    "picture": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1348&q=80",
+    "name": "Duranta excel",
+    "company": "EXODOC",
+    "description": "Road bicycle racing is the cycle sport discipline of road cycling, held on paved roads. Stage races or tours take multiple days, and consist of several mass-start or time-trial stages ridden consecutively. Professional racing originated in Western Europe, centred in France, Spain, Italy and the Low Countries."
+  }
+]
