@@ -80,12 +80,12 @@ const useFirebase =()=>{
       setLoading(false);
     });
     return () => unsubscribe;
-  }, [])
+  }, [auth])
 
   //save user to safe db
   const saveUser = (email, displayName, method) =>{
     const user = {email, displayName};
-    fetch('http://localhost:5000/users',{
+    fetch('https://vast-basin-25739.herokuapp.com/users',{
       method: method,
       headers: {'content-type': 'application/json'},
       body: JSON.stringify(user)
@@ -94,7 +94,7 @@ const useFirebase =()=>{
 
   // always keeping eye on email to see the admin status
   useEffect(()=>{
-    fetch(`http://localhost:5000/users/${user.email}`)
+    fetch(`https://vast-basin-25739.herokuapp.com/users/${user.email}`)
     .then(res=>res.json())
     .then(data=>setAdmin(data.admin))
   },[user.email])

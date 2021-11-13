@@ -7,10 +7,10 @@ const MyOrders = () => {
   const [orders, setOrders] = useState([]);
 
   useEffect(()=>{
-    fetch(`http://localhost:5000/orders?email=${user.email}`)
+    fetch(`https://vast-basin-25739.herokuapp.com/orders?email=${user.email}`)
     .then(res=>res.json())
     .then(data=>setOrders(data))
-  },[])
+  },[user.email])
   return (
     <div className='container'>
       <h2 className='bg-dark fs-2 text-white py-4 w-50 mx-auto'>My Orders</h2>

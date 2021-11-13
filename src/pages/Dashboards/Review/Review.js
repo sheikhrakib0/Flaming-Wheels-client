@@ -20,7 +20,7 @@ const Review = () => {
   const handleSubmit = (e) =>{
     e.preventDefault();
     const review =  {...inputValue, date: date.toLocaleDateString(), name: user.displayName, picture: user.photoURL }
-    fetch("http://localhost:5000/reviews", {
+    fetch("https://vast-basin-25739.herokuapp.com/reviews", {
       method: 'POST',
       headers: {'content-type': 'application/json'},
       body: JSON.stringify(review)

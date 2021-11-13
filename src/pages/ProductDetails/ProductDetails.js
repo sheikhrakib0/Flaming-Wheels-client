@@ -12,7 +12,7 @@ const ProductDetails = () => {
   // const productId = singleProduct._id; 
 
   useEffect(() => {
-    fetch(`http://localhost:5000/products/${id}`)
+    fetch(`https://vast-basin-25739.herokuapp.com/products/${id}`)
       .then(res => res.json())
       .then(data => setSingleProduct(data))
   }, [id])
@@ -39,7 +39,7 @@ const ProductDetails = () => {
     const orders = {...orderInfo, productName: singleProduct.name, productImg: singleProduct.picture}
     // console.log(orders);
     //sending data to server
-    fetch('http://localhost:5000/orders', {
+    fetch('https://vast-basin-25739.herokuapp.com/orders', {
       method: 'POST',
       headers: {'content-type' : 'application/json'},
       body: JSON.stringify(orders),
