@@ -3,13 +3,14 @@ import { Button, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Navigation from '../../Navigation/Navigation';
 import Product from '../../Product/Product';
+import Reviews from '../../Reviews/Reviews';
 import Slider from '../../Slider/Slider';
 
 const Home = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch('./products.json')
+    fetch('http://localhost:5000/products')
       .then(res => res.json())
       .then(data => setProducts(data))
   }, [])
@@ -17,7 +18,7 @@ const Home = () => {
     <div>
       <Navigation></Navigation>
       <Slider></Slider>
-      <div>
+      <div id='products'>
         <h2 className='my-4 fw-bold'>Our Products</h2>
         <div className='container'>
           <Row xs={1} md={3} className="g-4">
@@ -31,6 +32,9 @@ const Home = () => {
         </div>
         <Link to='/products'><Button>See All Products</Button></Link>
       </div>
+
+      <Reviews></Reviews>
+
     </div>
   );
 };

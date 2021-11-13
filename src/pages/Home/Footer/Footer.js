@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div>
-      <footer className="pt-2 mt-4 bg-dark text-white">
+    <div style={{marginTop: '200px'}}>
+      <footer className="pt-2 mt-4 bg-dark text-white position-static sticky-bottom">
         <div className="row">
           <div className="col-2">
             <h5>Section</h5>

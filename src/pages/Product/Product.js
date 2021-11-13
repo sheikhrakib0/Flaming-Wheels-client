@@ -3,7 +3,7 @@ import { Button, Card, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Product = (props) => {
-  const {id, name, picture, price, description} = props.product;
+  const {_id, name, picture, price, description} = props.product;
 
   return (
     <Col>
@@ -13,7 +13,7 @@ const Product = (props) => {
           <Card.Title>{name}</Card.Title>
           <Card.Text>Price: ${price}</Card.Text>
           <Card.Text>{description.slice(0, 100)}...</Card.Text>
-          <Link to={`/product/${id}`}><Button variant='dark'>Buy Now</Button></Link>
+          <Link to={`/products/${_id}`}><Button variant='dark'>Buy Now</Button></Link>
         </Card.Body>
       </Card>
     </Col>

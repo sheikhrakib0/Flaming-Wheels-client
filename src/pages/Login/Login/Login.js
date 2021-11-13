@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { Button, Form } from 'react-bootstrap';
+import { Alert, Button, Form, Spinner } from 'react-bootstrap';
 import { Link, useHistory, useLocation } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
 import Navigation from '../../Navigation/Navigation';
 
 const Login = () => {
   const [loginData, setLoginData] = useState({});
-  const { signInWithEmail, signInUsingGoogle, setUser, setError } = useAuth();
+  const { signInWithEmail, signInUsingGoogle, setUser, setError,setLoading, loading, error,user, saveUser } = useAuth();
 
   const location = useLocation();
   const history = useHistory();
@@ -32,11 +32,16 @@ const Login = () => {
     signInUsingGoogle()
       .then(res => {
         setUser(res.user);
+        //for save user
+        const user = res.user;
+        saveUser(user.email, user.displayName, 'PUT');
+        // ----------
         const destination = location?.state?.from || '/';
         history.replace(destination);
         setError('')
       })
       .catch(err => setError(err.message))
+      .finally(()=>setLoading(false))
 
   }
   return (
@@ -65,6 +70,13 @@ const Login = () => {
           <Button onClick={handleGoogleSignIn}>Sign In With Google</Button>
           <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
         </Form>
+        {loading && <Spinner animation="border"/>}
+        {user?.email && <Alert variant='success'>
+          Success! User login Successfully!
+        </Alert>}
+        {error && <Alert variant='success'>
+          Error!! {error}
+        </Alert>}
       </div>
     </div>
   );

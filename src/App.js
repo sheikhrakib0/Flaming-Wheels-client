@@ -13,6 +13,7 @@ import Products from './pages/Products/Products';
 import ProductDetails from './pages/ProductDetails/ProductDetails';
 import AuthProvider from './Context/AuthProvider';
 import PrivateRoute from './pages/Login/PrivateRoute/PrivateRoute';
+import Dashboard from './pages/Dashboards/Dashboard/Dashboard';
 
 
 function App() {
@@ -36,7 +37,10 @@ function App() {
             <Route exact path="/products">
               <Products></Products>
             </Route>
-            <PrivateRoute path='/product/:id'>
+            <Route path="/dashboard">
+              <Dashboard></Dashboard>
+            </Route>
+            <PrivateRoute path='/products/:id'>
               <ProductDetails></ProductDetails>
             </PrivateRoute>
           </Switch>

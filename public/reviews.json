@@ -1,0 +1,29 @@
+[
+  {
+    "rating": 5.00,
+    "name": "Rakib Sk",
+    "date": "12 Nov 2021",
+    "title": "Riding Cycle",
+    "description": "If you really enjoy spending your vacation 'on water' or would like to try something new and exciting for the first time",
+    "img": "https://images.unsplash.com/photo-1636652575061-a54064266873?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+    "id": 1
+  },
+  {
+    "rating": 4.00,
+    "name": "Mirza Mohammad",
+    "date": "16 Nov 2021",
+    "title": "Riding Cycle",
+    "description": "If you really enjoy spending your vacation 'on water' or would like to try something new and exciting for the first time",
+    "img": "https://images.unsplash.com/photo-1636652575061-a54064266873?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+    "id": 2
+  },
+  {
+    "rating": 5.00,
+    "name": "Sahriar Tonni",
+    "date": "10 Nov 2021",
+    "title": "Smoothness of Cycle",
+    "description": "If you really enjoy spending your vacation 'on water' or would like to try something new and exciting for the first time",
+    "img": "https://images.unsplash.com/photo-1636704169578-c4c3d9a90b0c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+    "id": 3
+  }
+]
