@@ -30,7 +30,7 @@ const Home = () => {
             }
           </Row>
         </div>
-        <Link to='/products'><Button>See All Products</Button></Link>
+        <Link className="rounded-pill" to='/products'><Button>See All Products <i className="fas fa-arrow-right"></i></Button></Link>
       </div>
 
       <Reviews></Reviews>

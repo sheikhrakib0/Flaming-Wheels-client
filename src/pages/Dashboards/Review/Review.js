@@ -40,11 +40,11 @@ const Review = () => {
               <div class="form-row">
                 <div class="col">
                   <label htmlFor="inputAddress">Rating </label>
-                  <input name="rating" onBlur={handleOnBlur} type="number" className="form-control" placeholder='number 0 - 5' />
+                  <input name="rating" onBlur={handleOnBlur} type="number" className="form-control" placeholder='number 0 - 5' required/>
                 </div>
                 <div class="col">
                   <label htmlFor="inputTitle">Title</label>
-                  <input name="title" onBlur={handleOnBlur} type="text" className="form-control" />
+                  <input name="title" onBlur={handleOnBlur} type="text" className="form-control" required                                              />
                 </div>
               </div>
             </div>
@@ -52,7 +52,7 @@ const Review = () => {
               <label htmlFor="inputDescription">Desctipton</label>
               <textarea
                 name="description" onBlur={handleOnBlur}
-                type="text" className="form-control" id="inputAddress" placeholder="1234 Main St" />
+                type="text" className="form-control" id="inputAddress" placeholder="1234 Main St" required/>
             </div>
             <div className="form-group">
             </div>

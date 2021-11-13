@@ -10,6 +10,8 @@ import DashboardHome from '../DashboardHome/DashboardHome';
 import MakeAdmin from '../MakeAdmin/MakeAdmin';
 import AddProduct from '../AddProduct/AddProduct';
 import Pay from '../Pay/Pay';
+import AdminRoute from '../../AdminRoute/AdminRoute';
+import AllOrders from '../AllOrders/AllOrders';
 
 
 const Dashboard = () => {
@@ -60,21 +62,27 @@ const Dashboard = () => {
                     Review
                   </Link>
                 </li>
-                {admin && 
+                {admin &&
                   <div>
-                <li className="nav-item">
-                  <Link to={`${url}/makeAdmin`} className="nav-link">
-                    <span data-feather="shopping-cart"></span>
-                    Make Admin
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link to={`${url}/addProduct`} className="nav-link">
-                    <span data-feather="shopping-cart"></span>
-                    Add a product
-                  </Link>
-                </li>
-                </div>}
+                    <li className="nav-item">
+                      <Link to={`${url}/makeAdmin`} className="nav-link">
+                        <span data-feather="shopping-cart"></span>
+                        Make Admin
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link to={`${url}/addProduct`} className="nav-link">
+                        <span data-feather="shopping-cart"></span>
+                        Add a product
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link to={`${url}/manageAllOrders`} className="nav-link">
+                        <span data-feather="shopping-cart"></span>
+                        Manage All Orders
+                      </Link>
+                    </li>
+                  </div>}
               </ul>
             </div>
           </nav>
@@ -108,12 +116,15 @@ const Dashboard = () => {
                 <Route path={`${path}#myorder`}>
                   <DashboardHome></DashboardHome>
                 </Route>
-                <Route path={`${path}/makeAdmin`}>
+                <AdminRoute path={`${path}/makeAdmin`}>
                   <MakeAdmin></MakeAdmin>
-                </Route>
-                <Route path={`${path}/addProduct`}>
+                </AdminRoute>
+                <AdminRoute path={`${path}/addProduct`}>
                   <AddProduct></AddProduct>
-                </Route>
+                </AdminRoute>
+                <AdminRoute path={`${path}/manageAllOrders`}>
+                  <AllOrders></AllOrders>
+                </AdminRoute>
               </Switch>
             </div>
 

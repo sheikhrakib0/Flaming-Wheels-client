@@ -86,14 +86,14 @@ const ProductDetails = () => {
                   <label htmlFor="inputAddress">Address</label>
                   <input
                   name="address" onBlur={handleOnBlur}
-                   type="text" className="form-control" id="inputAddress" placeholder="1234 Main St" />
+                   type="text" className="form-control" id="inputAddress" placeholder="1234 Main St" required/>
                 </div>
                 <div className="form-row">
                   <div className="form-group col-md-6">
                     <label htmlFor="inputCity">Phone</label>
                     <input
                     name="phone" onBlur={handleOnBlur}
-                    type="text" className="form-control" id="inputCity" />
+                    type="text" className="form-control" id="inputCity" required/>
                   </div>
                 </div>
                 <div className="form-group">

@@ -13,7 +13,7 @@ const Product = (props) => {
           <Card.Title>{name}</Card.Title>
           <Card.Text>Price: ${price}</Card.Text>
           <Card.Text>{description.slice(0, 100)}...</Card.Text>
-          <Link to={`/products/${_id}`}><Button variant='dark'>Buy Now</Button></Link>
+          <Link to={`/products/${_id}`}><Button variant='dark'>Buy Now <i className="fas fa-arrow-right"></i></Button></Link>
         </Card.Body>
       </Card>
     </Col>

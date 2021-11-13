@@ -14,6 +14,8 @@ import ProductDetails from './pages/ProductDetails/ProductDetails';
 import AuthProvider from './Context/AuthProvider';
 import PrivateRoute from './pages/Login/PrivateRoute/PrivateRoute';
 import Dashboard from './pages/Dashboards/Dashboard/Dashboard';
+import NotFound from './pages/NotFound/NotFound';
+import Blogs from './pages/Blogs/Blogs';
 
 
 function App() {
@@ -37,12 +39,18 @@ function App() {
             <Route exact path="/products">
               <Products></Products>
             </Route>
-            <Route path="/dashboard">
+            <PrivateRoute path="/dashboard">
               <Dashboard></Dashboard>
-            </Route>
+            </PrivateRoute>
             <PrivateRoute path='/products/:id'>
               <ProductDetails></ProductDetails>
             </PrivateRoute>
+            <Route path='/blogs'>
+              <Blogs></Blogs>
+            </Route>
+            <Route path='*'>
+              <NotFound></NotFound>
+            </Route>
           </Switch>
           <Footer></Footer>
         </Router>
