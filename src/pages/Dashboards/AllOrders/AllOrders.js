@@ -9,7 +9,7 @@ const AllOrders = () => {
   }
    //finding user orders
    useEffect(()=>{
-    fetch(`https://vast-basin-25739.herokuapp.com/orders/`)
+    fetch(`https://vast-basin-25739.herokuapp.com/allorders`)
     .then(res=>res.json())
     .then(data=>setAllOrders(data))
   },[])
